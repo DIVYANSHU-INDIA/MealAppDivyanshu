@@ -1,0 +1,134 @@
+/* Set global styles for the entire document */
+body {
+    font-family: Arial, sans-serif; /* Define the font family */
+    background-color: #f5f5f5; /* Set the background color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Style the header section */
+header {
+    background-color: #333; /* Set the background color */
+    color: #fff; /* Set text color */
+    padding: 20px; /* Add padding to the header */
+    display: flex; /* Use flex layout */
+    justify-content: space-between; /* Space items evenly horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+/* Style the navigation links within the header */
+.header {
+    display: flex; /* Use flex layout for navigation links */
+}
+
+.header a {
+    color: #fff; /* Set link text color */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 20px; /* Add padding to links (top/bottom and left/right) */
+    transition: background-color 0.3s ease; /* Add smooth background color transition on hover */
+}
+
+/* Change link background color on hover */
+.header a:hover {
+    background-color: #555;
+}
+
+/* Style the main container */
+.container {
+    max-width: 800px; /* Set maximum container width */
+    margin: 10px auto; /* Center the container horizontally and add margin */
+    padding: 20px; /* Add padding inside the container */
+    background-color: #fff; /* Set container background color */
+    border-radius: 4px; /* Add rounded corners to the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for a subtle effect */
+}
+
+/* Style the search input field */
+#search-input {
+    width: 100%; /* Set the input field to full width */
+    padding: 10px; /* Add padding to the input */
+    font-size: 16px; /* Set font size */
+    border: 1px solid #ccc; /* Add a border with a color */
+    border-radius: 4px; /* Add rounded corners to the input */
+}
+
+/* Style the search button */
+#search-button {
+    margin-top: 10px; /* Add top margin to the button */
+    width: 100%; /* Set the button width to full width */
+    padding: 10px; /* Add padding to the button */
+    font-size: 16px; /* Set font size */
+    background-color: #333; /* Set button background color */
+    color: #fff; /* Set button text color */
+    border: none; /* Remove button border */
+    border-radius: 4px; /* Add rounded corners to the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Add smooth background color transition on hover */
+}
+
+/* Change button background color on hover */
+#search-button:hover {
+    background-color: #555;
+}
+
+/* Style for favorite meal items */
+.favorite-item {
+    background-color: #fff; /* Set background color */
+    border: 1px solid #ccc; /* Add a border with a color */
+    padding: 10px; /* Add padding */
+    margin-bottom: 10px; /* Add bottom margin to separate items */
+    border-radius: 4px; /* Add rounded corners */
+    text-align: left; /* Align text to the left */
+}
+
+/* Style for the container displaying search results */
+#search-results {
+    background-color: #f5f5f5; /* Set background color */
+    padding: 20px; /* Add padding inside the container */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add box shadow for a subtle effect */
+    width: 50%; /* Set width to 50% of the parent container */
+    margin: auto; /* Center the container horizontally */
+}
+
+/* Style for individual search result items (optional) */
+.result-item {
+    margin-bottom: 10px; /* Add bottom margin to separate items */
+    padding: 10px; /* Add padding to result items */
+    border: 1px solid #ddd; /* Add a border with a color */
+    border-radius: 3px; /* Add rounded corners */
+}
+
+/* Style for result item headings (optional) */
+.result-item h2 {
+    font-size: 18px; /* Set font size for headings */
+    margin-bottom: 5px; /* Add bottom margin below headings */
+}
+
+/* Style for result item descriptions (optional) */
+.result-item p {
+    font-size: 14px; /* Set font size for descriptions */
+    color: #666; /* Set text color for descriptions */
+}
+
+/* Style for custom buttons */
+.custom-button {
+    background-color: #007bff; /* Set button background color */
+    color: #fff; /* Set button text color */
+    border: none; /* Remove button border */
+    border-radius: 4px; /* Add rounded corners */
+    padding: 10px 20px; /* Add padding (top/bottom and left/right) */
+    cursor: pointer; /* Change cursor to pointer */
+    font-size: 16px; /* Set font size */
+    margin-right: 10px; /* Add right margin to separate buttons */
+}
+
+/* Change button background color on hover */
+.custom-button:hover {
+    background-color: #0056b3;
+}
+
+/* Adjust spacing between the icon and text inside custom buttons */
+.custom-button i {
+    margin-right: 5px;
+}
